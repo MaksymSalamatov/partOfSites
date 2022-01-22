@@ -1,0 +1,38 @@
+
+body{
+    background-color: #bababe;
+}
+
+.accordion{
+    padding: 10px;
+}
+.accordion{
+    margin: 0 auto;
+    width: 600px;
+    background-color: #375ac2;
+    border-radius: 10px;
+}
+.item-title{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.item-child{
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 0 0 10px ;
+    transition: .3s ease;
+}
+
+
+.item{
+    border-bottom: 1px solid #54545d;
+    color: #54545d;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+.item:first-child{
+    border-top: 1px solid #54545d;
+}
